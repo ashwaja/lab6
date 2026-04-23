@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main','https://github.com/ashwaja/lab6.git',
+                git branch: 'master','https://github.com/ashwaja/lab6.git',
                 credentialsId: 'github-token'
             }
         }
